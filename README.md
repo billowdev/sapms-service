@@ -1,6 +1,5 @@
 # sapms-service-ts-express-sequelize
 - npm install -g sequelize-cli
-- 
 - npx sequelize-cli db:seed --seed database/seeders/course-seed.ts
 
 
