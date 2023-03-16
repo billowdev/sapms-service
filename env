@@ -1,0 +1,25 @@
+PORT=5000
+JWT_SECRET=YourJWTSecret
+NODE_ENV=development
+CLIENT_URL=localhost
+JWT_EXPRIES=1h
+
+DB_SYNC_FORCE=false
+
+DB_USERNAME_DEV=root
+DB_PASSWORD_DEV=""
+DB_DATABASE_DEV=sapms_db
+DB_HOST_DEV=localhost
+
+DB_USERNAME_PROD=root
+DB_PASSWORD_PROD=""
+DB_DATABASE_PROD=sapms_db
+DB_HOST_PROD=localhost
+
+DB_USERNAME_TEST=root
+DB_PASSWORD_TEST=""
+DB_DATABASE_TEST=sapms_db
+DB_HOST_TEST=localhost
+
+DB_DIALECT=postgres | mysql | your dialect
+
